@@ -1,0 +1,35 @@
+h1 {
+    text-align: center; 
+    /* 가운데 정렬 */
+    margin-top: 230px;
+    /* 위쪽 간격을 230px 만큼 떨어뜨려라 */
+    font-size: 90px;
+}
+
+/* 띄어쓰기 : h1 태그의 모든 자손 중에서 span 태그만 선택 */
+/* nth-child : 몇번째 자식 */
+h1 span:nth-child(1) {
+    color: #4185f7;
+  }
+
+h1 span:nth-child(2) {
+    color: #eb4435;
+  }
+
+h1 span:nth-child(3) {
+    color: #fabb00;
+  }
+
+h1 span:nth-child(4) {
+    color: #34aa52;
+  }
+
+h1 span:nth-child(5) {
+    color: #4185f7;
+  }
+
+.search-bar {
+    width: 500px;
+    
+
+}
